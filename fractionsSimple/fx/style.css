@@ -1,0 +1,16 @@
+.button {
+	-fx-border-radius: 4;
+	-fx-border-color: gray;
+	-fx-border-style: solid;
+	-fx-background-color: white;
+}
+
+.text-field {
+	-fx-background-color: white;
+	-fx-border-radius: 0;
+	-fx-border-style: solid;
+}
+
+#calcMeth {
+	-fx-border-radius: 5;
+}

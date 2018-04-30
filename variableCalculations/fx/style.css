@@ -1,0 +1,62 @@
+.root {
+	-fx-background-color: white;
+}
+
+.text-field {
+	-fx-border-color: black;
+	-fx-border-radius: 3px;
+}
+
+.button:focused {
+    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+}
+
+.text-field:focused {	
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 3px, 3px, 2px, 1px;
+}
+
+#btnType1 {
+	-fx-background-color: #e5e5e5;
+	-fx-border-radius: 2px;
+	-fx-border-color: #8e8e8e;
+}
+
+#expoField {
+	-fx-padding: 2px;
+}
+
+#varField {
+	-fx-padding: 4px;
+}
+
+#addVarBtn {
+	-fx-border-radius: 4px;
+	-fx-background-color: white;
+	-fx-border-color: #4f4f4f;
+	-fx-padding: 2px;
+	-fx-font-size: 15px;
+}
+
+#addVarNumBtn {
+	-fx-border-radius: 15px;
+	-fx-background-color: white;
+	-fx-border-color: black;
+	-fx-font-size: 20px;
+	-fx-padding: 0 8px;
+}
+
+#operationF {
+	-fx-border-radius: 0;
+}
+
+.button:hover {
+	-fx-border-color: #3a3a3a !important;
+}
+
+.button:pressed {
+	-fx-border-color: #878787 !important;
+}
